@@ -1,4 +1,4 @@
-.backgroundimage{
+.backgroundImage{
     background-image: url('/back.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -6,7 +6,7 @@
     height: 100vh;
     width: 100%;
 }
-.blink{
+.blinking{
     font-family: serif;
     color: #008000;
     text-align: center;
@@ -26,6 +26,6 @@
         opacity: 0;
     }
 }
-.no{
+.texttra{
     text-decoration: none;
 }

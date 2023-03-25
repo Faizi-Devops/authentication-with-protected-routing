@@ -1,5 +1,6 @@
 import styles from '../styles/Register.module.css';
 import { useFormik } from "formik";
+import Link from 'next/link'
 import * as Yup from "yup";
 const Register = () => {
 
@@ -110,6 +111,9 @@ const Register = () => {
                             </div>
 
                             </div>
+                            <div>
+                            <p>Already have account. <span className={styles.blink}><Link href="/Login" className={styles.no}>Login!</Link></span></p>
+                        </div>
                             <div className="mb-3 mt-2">
 
 
